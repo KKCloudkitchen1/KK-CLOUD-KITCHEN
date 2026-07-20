@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KK Cloud Kitchen</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+🍕 KK CLOUD KITCHEN
+</div>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#menu">Menu</a>
+<a href="#offer">Offers</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<h1>Fresh Food Delivered Fast</h1>
+
+<p>
+Pizza • Burger • Sandwich • Pasta • Cold Coffee • Virgin Mojito
+</p>
+
+<a href="https://wa.me/919306741576" class="btn">
+Order Now
+</a>
+
+</section>
+
+<section id="offer">
+
+<h2>🔥 Today's Special Offer</h2>
+
+<div class="offer-box">
+
+<h3>Single Topping Pizza ₹59</h3>
+
+<h3>Double Topping Pizza ₹79</h3>
+
+<p>
+
+Special Offer Only On Takeaway
+
+Minimum Order ₹299
+
+*Food Only (Drinks Not Included)
+
+</p>
+
+</div>
+
+</section>
+
+<section id="menu">
+
+<h2>Our Menu</h2>
+
+<div class="menu-grid">
+
+<div class="card">
+🍕
+<h3>Pizza</h3>
+<p>Starting ₹59</p>
+</div>
+
+<div class="card">
+🍔
+<h3>Burger</h3>
+<p>Starting ₹79</p>
+</div>
+
+<div class="card">
+🥪
+<h3>Sandwich</h3>
+<p>Fresh & Crispy</p>
+</div>
+
+<div class="card">
+🍝
+<h3>Pasta</h3>
+<p>White & Red Sauce</p>
+</div>
+
+<div class="card">
+☕
+<h3>Cold Coffee</h3>
+<p>Refreshing</p>
+</div>
+
+<div class="card">
+🍹
+<h3>Virgin Mojito</h3>
+<p>Fresh Mint</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>
+
+📍 Ladwa, Haryana
+
+</p>
+
+<p>
+
+📞 9306741576
+
+</p>
+
+<p>
+
+🕚 11:00 AM – 12:00 AM
+
+</p>
+
+<a href="tel:+919306741576" class="btn">
+Call Now
+</a>
+
+<a href="https://wa.me/919306741576" class="btn">
+WhatsApp Order
+</a>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 KK Cloud Kitchen
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
