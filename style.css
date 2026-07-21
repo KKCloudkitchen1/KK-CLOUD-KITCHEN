@@ -392,4 +392,4 @@ transition:.7s ease;
 opacity:1;
 transform:translateY(0);
 }background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-url('images/hero.png') center/cover;
+url('hero.png') center/cover;
