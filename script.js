@@ -1,23 +1,59 @@
-// KK Cloud Kitchen JavaScript
+// ==============================
+// KK CLOUD KITCHEN V2
+// ==============================
 
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("KK Cloud Kitchen Website Loaded");
+// Smooth fade animation on scroll
 
-  // Smooth scrolling
-  document.querySelectorAll('a[href^="#"]').forEach(link => {
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute("href"));
-      if (target) {
-        target.scrollIntoView({
-          behavior: "smooth"
-        });
-      }
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }
     });
-  });
-
-  // Welcome message
-  setTimeout(() => {
-    alert("🍕 Welcome to KK Cloud Kitchen!");
-  }, 1000);
+},{
+    threshold:0.2
 });
+
+document.querySelectorAll(
+".menu-card,.combo-card,.category,.offer-box,.contact-box,.about-section"
+).forEach((el)=>{
+    observer.observe(el);
+});
+
+// Sticky Header Shadow
+
+window.addEventListener("scroll",()=>{
+
+const header=document.querySelector(".header");
+
+if(window.scrollY>20){
+header.style.boxShadow="0 10px 25px rgba(0,0,0,.25)";
+}else{
+header.style.boxShadow="0 5px 20px rgba(0,0,0,.15)";
+}
+
+});
+
+// Button Click Animation
+
+document.querySelectorAll(".menu-btn,.order-btn,.contact-btn").forEach(btn=>{
+
+btn.addEventListener("click",()=>{
+
+btn.style.transform="scale(.95)";
+
+setTimeout(()=>{
+btn.style.transform="scale(1)";
+},150);
+
+});
+
+});
+
+// Welcome Message
+
+window.onload=function(){
+
+console.log("Welcome to KK CLOUD KITCHEN ð");
+
+};
