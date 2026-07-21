@@ -3,17 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KK Cloud Kitchen</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<title>KK CLOUD KITCHEN | Pizza, Burgers & Fast Food</title>
+
+<meta name="description" content="KK Cloud Kitchen - Fresh Pizza, Burgers, Wraps & Fast Food. Takeaway & Delivery Available.">
 
 <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 
 <body>
 
-<header>
+<header class="header">
 
 <div class="logo">
 🍕 KK CLOUD KITCHEN
@@ -22,142 +31,293 @@
 <nav>
 
 <a href="#home">Home</a>
+
 <a href="#menu">Menu</a>
-<a href="#offer">Offers</a>
+
+<a href="#offers">Offers</a>
+
+<a href="#about">About</a>
+
 <a href="#contact">Contact</a>
 
 </nav>
 
-</header>
-
-<section id="home" class="hero">
-
-<h1>Fresh Food Delivered Fast</h1>
-
-<p>
-Pizza • Burger • Sandwich • Pasta • Cold Coffee • Virgin Mojito
-</p>
-
-<a href="https://wa.me/919306741576" class="btn">
+<a href="https://wa.me/919306741576" class="order-btn">
 Order Now
 </a>
 
-</section>
+</header>
 
-<section id="offer">
+<section class="hero" id="home">
 
-<h2>🔥 Today's Special Offer</h2>
+<div class="hero-content">
 
-<div class="offer-box">
-
-<h3>Single Topping Pizza ₹59</h3>
-
-<h3>Double Topping Pizza ₹79</h3>
+<h1>
+Fresh Pizza<br>
+Made With Love ❤️
+</h1>
 
 <p>
 
-Special Offer Only On Takeaway
+Fast Delivery • Fresh Ingredients • Best Taste
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#menu" class="btn-primary">
+
+View Menu
+
+</a>
+
+<a href="https://wa.me/919306741576"
+
+class="btn-secondary">
+
+WhatsApp Order
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="offer-strip">
+
+🔥 TAKEAWAY SPECIAL OFFER
 
 Minimum Order ₹299
 
-*Food Only (Drinks Not Included)
+Get Flat 10% OFF
 
-</p>
-
-</div>
+(Only on Food | Drinks Not Included)
 
 </section>
 
-<section id="menu">
+<section class="categories">
 
-<h2>Our Menu</h2>
-
-<div class="menu-grid">
-
-<div class="card">
+<div class="category">
 🍕
-<h3>Pizza</h3>
-<p>Starting ₹59</p>
+<span>Pizza</span>
 </div>
 
-<div class="card">
+<div class="category">
 🍔
-<h3>Burger</h3>
-<p>Starting ₹79</p>
+<span>Burger</span>
 </div>
 
-<div class="card">
-🥪
-<h3>Sandwich</h3>
-<p>Fresh & Crispy</p>
+<div class="category">
+🌯
+<span>Wraps</span>
 </div>
 
-<div class="card">
-🍝
-<h3>Pasta</h3>
-<p>White & Red Sauce</p>
+<div class="category">
+🍟
+<span>Snacks</span>
 </div>
 
-<div class="card">
-☕
-<h3>Cold Coffee</h3>
-<p>Refreshing</p>
+<div class="category">
+🥤
+<span>Drinks</span>
 </div>
 
-<div class="card">
-🍹
-<h3>Virgin Mojito</h3>
-<p>Fresh Mint</p>
-</div>
+</section><!-- MENU SECTION -->
 
-</div>
+<section id="menu" class="menu-section">
+
+    <div class="section-title">
+        <h2>Our Menu</h2>
+        <p>Fresh • Tasty • Affordable</p>
+    </div>
+
+    <div class="menu-grid">
+
+        <!-- Pizza -->
+
+        <div class="menu-card">
+            <span class="badge">Best Seller</span>
+            <h3>Single Topping Pizza</h3>
+            <p>Choose your favourite topping</p>
+            <div class="price">₹59</div>
+            <a href="https://wa.me/919306741576" class="menu-btn">Order Now</a>
+        </div>
+
+        <div class="menu-card">
+            <span class="badge">Popular</span>
+            <h3>Double Topping Pizza</h3>
+            <p>Double cheese & double taste</p>
+            <div class="price">₹79</div>
+            <a href="https://wa.me/919306741576" class="menu-btn">Order Now</a>
+        </div>
+
+        <!-- Burger -->
+
+        <div class="menu-card">
+            <h3>Veg Burger</h3>
+            <p>Fresh veg patty with crispy veggies</p>
+            <div class="price">Starting ₹69</div>
+            <a href="https://wa.me/919306741576" class="menu-btn">Order Now</a>
+        </div>
+
+        <div class="menu-card">
+            <h3>Cheese Burger</h3>
+            <p>Loaded with delicious cheese</p>
+            <div class="price">Starting ₹89</div>
+            <a href="https://wa.me/919306741576" class="menu-btn">Order Now</a>
+        </div>
+
+    </div>
 
 </section>
 
-<section id="contact">
+<!-- COMBO MEALS -->
 
-<h2>Contact Us</h2>
+<section class="combo-section">
 
-<p>
+    <div class="section-title">
+        <h2>Combo Meals</h2>
+        <p>Best Value Deals</p>
+    </div>
 
-📍 Ladwa, Haryana
+    <div class="combo-grid">
 
-</p>
+        <div class="combo-card">
 
-<p>
+            <h3>Combo 1</h3>
 
-📞 9306741576
+            <p>
+                Pizza + Fries + Cold Drink
+            </p>
 
-</p>
+            <div class="price">
+                ₹199
+            </div>
 
-<p>
+        </div>
 
-🕚 11:00 AM – 12:00 AM
+        <div class="combo-card">
 
-</p>
+            <h3>Combo 2</h3>
 
-<a href="tel:+919306741576" class="btn">
-Call Now
-</a>
+            <p>
+                2 Pizzas + Garlic Bread + Drink
+            </p>
 
-<a href="https://wa.me/919306741576" class="btn">
-WhatsApp Order
-</a>
+            <div class="price">
+                ₹349
+            </div>
+
+        </div>
+
+        <div class="combo-card">
+
+            <h3>Family Combo</h3>
+
+            <p>
+                4 Pizzas + Fries + Drinks
+            </p>
+
+            <div class="price">
+                ₹699
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
+
+<!-- OFFERS -->
+
+<section id="offers" class="offers-section">
+
+    <h2>Special Offer</h2>
+
+    <div class="offer-box">
+
+        <h3>🎉 TAKEAWAY OFFER</h3>
+
+        <h1>10% OFF</h1>
+
+        <p>
+            Minimum Order ₹299
+        </p>
+
+        <small>
+            *Offer applicable only on food items. Drinks excluded.
+        </small>
+
+    </div>
+
+</section><!-- ABOUT -->
+
+<section id="about" class="about-section">
+
+    <div class="section-title">
+        <h2>About KK Cloud Kitchen</h2>
+    </div>
+
+    <p class="about-text">
+        KK Cloud Kitchen serves fresh, delicious and affordable fast food.
+        We focus on quality ingredients, hygiene and quick takeaway & delivery
+        so every customer enjoys a great meal.
+    </p>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact-section">
+
+    <div class="section-title">
+        <h2>Contact Us</h2>
+    </div>
+
+    <div class="contact-box">
+
+        <p><strong>📞 Phone:</strong> +919306741576</p>
+
+        <p><strong>📍 Address:</strong> Your Shop Address Here</p>
+
+        <p><strong>🕒 Timing:</strong> 11:00 AM – 11:00 PM</p>
+
+        <a href="https://wa.me/919306741576"
+           class="contact-btn">
+            Order on WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
 
 <footer>
 
-<p>
+    <h3>KK CLOUD KITCHEN</h3>
 
-© 2026 KK Cloud Kitchen
+    <p>Fresh Food • Fast Delivery • Best Taste</p>
 
-</p>
+    <p>
+        © 2026 KK Cloud Kitchen. All Rights Reserved.
+    </p>
 
 </footer>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+
+<a href="https://wa.me/919306741576"
+   class="floating-whatsapp"
+   target="_blank">
+
+    <i class="fab fa-whatsapp"></i>
+
+</a>
 
 <script src="script.js"></script>
 
 </body>
-
 </html>
